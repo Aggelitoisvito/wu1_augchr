@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<!-- THIS IS HEAD, THIS DOESN'T SHOW -->
+
+<head>
+    <!-- ALWAYS THIS FIRST -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Augusts portfolio</title>
+    <!-- ALWAYS THIS FIRST -->
+
+    <!-- STYLE -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="https://thorengruppen-my.sharepoint.com/:w:/r/personal/tisgot17nilchr_innovationsgymnasiet_se/_layouts/15/Doc.aspx?sourcedoc=%7BBED1FB42-C0A0-4D34-8071-7296723B574E%7D&file=Dokument%2035.docx&action=editnew&mobileredirect=true&wdNewAndOpenCt=1557402578929&wdPreviousSession=e1572eea-53fa-4fad-ab83-bd44b5334fdd&wdOrigin=ohpAppStartPages"
+            target="_blank">Work</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search..">
+    </nav>
+    <main>
+        <h1>August Christoffersson</h1>
+        <p>Välkommen till min portfolio</p>
+        <div class="container">
+            <form action="action_page.php">
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
+
+
+css
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../img/wp3594971.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: highlight;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    font-size: 17px;
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+    background-color: #ddd;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    color: white;
+    background-color: #2196f3;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    font-size: 17px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 16px;
+    padding: 6px;
+    border: none;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+        text-align: left;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
